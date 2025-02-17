@@ -12,10 +12,6 @@ Este projeto é uma calculadora simples de multas de trânsito baseada na veloci
 
 - Navegador moderno com suporte a JavaScript.
 
-## Testes
-
-Para rodar os testes, abra o arquivo `test.js` no seu navegador ou utilize um ambiente de teste como Jest.
-
 ## Melhorias Futuras
 
 - Adicionar mais validações de entrada.

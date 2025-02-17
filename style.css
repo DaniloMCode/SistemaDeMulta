@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #a8edea;
+    flex-direction: column; /* Alinha os itens verticalmente */
+}
+
+.div1 {
+    background: linear-gradient(135deg, #ffffff, #f0f0f0); /* Gradiente suave para o fundo */
+    padding: 20px;
+    border-radius: 15px; /* Bordas arredondadas */
+    border: 2px solid #ccc; /* Borda sólida */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra para dar profundidade */
+    width: 350px; /* Largura da div */
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px; /* Espaçamento abaixo do título */
+    color: #333; /* Cor do título */
+}
+
+.input-group {
+    display: flex; /* Alinha o input e o texto na mesma linha */
+    align-items: center; /* Centraliza verticalmente */
+    margin-bottom: 15px;
+}
+
+.input-number {
+    width: 80%; /* Define uma largura menor para o input */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px; /* Espaçamento entre o input e o texto */
+}
+
+.input-group span {
+    font-size: 16px;
+    color: #555;
+}
+
+.btn-verificar {
+    width: 100%;
+    padding: 10px;
+    background: #c0c0c0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s ease; /* Transição suave ao passar o mouse */
+}
+
+.btn-verificar:hover {
+    background: #a8a8a8; /* Cor ao passar o mouse */
+}
+.btn-nova-verificacao {
+    width: 100%;
+    padding: 10px;
+    background: #4CAF50; /* Verde */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    color: white; /* Texto branco */
+    margin-top: 10px; /* Espaçamento acima do botão */
+    transition: background 0.3s ease; /* Transição suave ao passar o mouse */
+}
+
+.btn-nova-verificacao:hover {
+    background: #45a049; /* Verde mais escuro ao passar o mouse */
+}
+
+.resultado {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #333; /* Cor do texto do resultado */
+}

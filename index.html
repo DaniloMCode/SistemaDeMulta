@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <script src="script/script.js"></script>
+    <title>Detran</title>
+</head>
+<body> 
+    <div class="div1">
+        <h1>Sistema de Multa</h1>  
+        <div class="input-group">
+            <input type="number" class="input-number" id="txtvel" placeholder="Digite a velocidade">
+            <span>Km/h</span> <!-- Texto "Km/h" ao lado do input -->
+        </div>
+        <input type="button" class="btn-verificar" value="Verificar" onclick="calcular()">
+        <input type="button" class="btn-nova-verificacao" id="btn-nova-verificacao" value="Nova Verificação" >
+        <div class="resultado" id="res"></div>
+    </div>     
+</body>
+</html>
